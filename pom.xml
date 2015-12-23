@@ -8,5 +8,39 @@
     <artifactId>bupt-sse-consumer</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <parent>
+        <groupId>cn.sse.bupt</groupId>
+        <artifactId>bupt-sse-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>cn.sse.bupt</groupId>
+            <artifactId>bupt-sse-api</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
