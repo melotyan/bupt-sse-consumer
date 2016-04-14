@@ -14,4 +14,5 @@
        <dubbo:reference interface="cn.sse.bupt.service.SuggestionService" id="suggestionService"/>
        <dubbo:reference interface="cn.sse.bupt.service.TenderService" id="tenderService"/>
        <dubbo:reference interface="cn.sse.bupt.service.InutatccmOfTenderService" id="inutatccmOfTenderService"/>
+       <dubbo:reference interface="cn.sse.bupt.service.NewsService" id="newsService"/>
 </beans>
